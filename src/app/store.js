@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import minesweepReducer from "../features/minesweep/minesweepSlice";
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    minesweep: minesweepReducer,
   },
 });
